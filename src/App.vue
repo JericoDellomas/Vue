@@ -91,7 +91,7 @@ const flexClass = computed(() => {
                         <option value="align-items-lg-end">Lg-End</option>
                         <option value="align-items-lg-center">Lg-Center</option>
                         <option value="align-items-lg-baseline">Lg-Baseline</option>
-                        <option value="align-items-lg-stretch">Lg-Stretch<option>
+                        <option value="align-items-lg-stretch">Lg-Stretch</option>
                     </select>
                 </div>
                 <div class="form-group">
