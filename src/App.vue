@@ -6,7 +6,7 @@ const flexDirection = ref('')
 const flexWrap = ref('')
 const flexJustifyContent = ref('')
 const flexAlignItems = ref('')
-const flexSelf = ref('')
+const flexContent = ref('')
 
 const flexClass = computed(() => {
     let classes = [
@@ -14,7 +14,7 @@ const flexClass = computed(() => {
         flexWrap.value,
         flexJustifyContent.value,
         flexAlignItems.value,
-        flexSelf.value
+        flexContent.value
     ]
 
     return classes.join(' ')
@@ -95,14 +95,15 @@ const flexClass = computed(() => {
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Align Self:</label>
-                    <select class="form-select" v-model="flexSelf">
+                    <label>Align Content:</label>
+                    <select class="form-select" v-model="flexContent">
                         <option value="">-- Please select --</option>
-                        <option value="align-self-start">Start</option>
-                        <option value="align-self-end">End</option>
-                        <option value="align-self-center">Center</option>
-                        <option value="align-self-baseline">Baseline</option>
-                        <option value="align-self-stretch">Stretch</option>
+                        <option value="align-content-center">Center</option>
+                        <option value="align-content-start">Start</option>
+                        <option value="align-content-end">End</option>
+                        <option value="align-content-around">Around</option>
+                        <option value="align-content-evenly">Evenly</option>
+                        <option value="align-content-between">Between</option>
                     </select>
                 </div>
                 <div class="mt-5">
