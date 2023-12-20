@@ -42,54 +42,67 @@ const flexClass = computed(() => {
                     <label>Flex Direction:</label>
                     <select class="form-select" v-model="flexDirection">
                         <option value="">-- Please select --</option>
-                        <option value="flex-row">row</option>
-                        <option value="flex-row-reverse">row-reverse</option>
-                        <option value="flex-column">column</option>
-                        <option value="flex-column-reverse">column-reverse</option>
+                        <option value="flex-sm-row-reverse">Sm-Row-Reverse</option>
+                        <option value="flex-sm-column">Sm-Column</option>
+                        <option value="flex-sm-column-reverse">Sm-Column-Reverse</option>
+                        <option value="flex-md-row">Md-Row</option>
+                        <option value="flex-md-row-reverse">Md-Row-Reverse</option>
+                        <option value="flex-md-column">Md-Column</option>
+                        <option value="flex-md-column-reverse">Md-Column-Reverse</option>
+                        <option value="flex-lg-row">Lg-Row</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label>Flex Wrap:</label>
                     <select class="form-select" v-model="flexWrap">
                         <option value="">-- Please select --</option>
-                        <option value="flex-nowrap">nowrap</option>
-                        <option value="flex-wrap">wrap</option>
-                        <option value="flex-wrap-reverse">wrap-reverse</option>
+                        <option value="flex-sm-wrap-reverse">Sm-Wrap-Reverse</option>
+                        <option value="flex-md-nowrap">Md-Nowrap</option>
+                        <option value="flex-md-wrap">Md-Wrap</option>
+                        <option value="flex-md-wrap-reverse">Wrap-Reverse</option>
+                        <option value="flex-lg-nowrap">Lg-Nowrap</option>
+                        <option value="flex-lg-wrap">Lg-Wrap</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label>Justify Content:</label>
                     <select class="form-select" v-model="flexJustifyContent">
                         <option value="">-- Please select --</option>
-                        <option value="justify-content-start">flex-start</option>
-                        <option value="justify-content-end">flex-end</option>
-                        <option value="justify-content-center">center</option>
-                        <option value="justify-content-around">space-around</option>
-                        <option value="justify-content-evenly">space-evenly</option>
-                        <option value="justify-content-between">space-between</option>
+                        <option value="justify-content-sm-start">Sm-Start</option>
+                        <option value="justify-content-sm-end">Sm-End</option>
+                        <option value="justify-content-sm-center">Sm-Center</option>
+                        <option value="justify-content-sm-between">Sm-Between</option>
+                        <option value="justify-content-sm-around">Sm-Around</option>
+                        <option value="justify-content-sm-evenly">Sm-Evenly</option>
+                        <option value="justify-content-md-start">Md-Start</option>
+                        <option value="justify-content-md-end">Md-End</option>
+                        <option value="justify-content-md-center">Md-Center</option>
+                        <option value="justify-content-md-between">Md-Between</option>
+                        <option value="justify-content-md-around">Md-Around</option>
+                        <option value="justify-content-md-evenly">Md-Evenly</option>
+                        
                     </select>
                 </div>
                 <div class="form-group">
                     <label>Align Items:</label>
                     <select class="form-select" v-model="flexAlignItems">
                         <option value="">-- Please select --</option>
-                        <option value="align-items-stretch">stretch</option>
-                        <option value="align-items-baseline">baseline</option>
-                        <option value="align-items-center">center</option>
-                        <option value="align-items-start">flex-start</option>
-                        <option value="align-items-end">flex-end</option>
+                        <option value="align-items-lg-start">Lg-Start</option>
+                        <option value="align-items-lg-end">Lg-End</option>
+                        <option value="align-items-lg-center">Lg-Center</option>
+                        <option value="align-items-lg-baseline">Lg-Baseline</option>
+                        <option value="align-items-lg-stretch">Lg-Stretch<option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Align Content:</label>
+                    <label>Align Self:</label>
                     <select class="form-select" v-model="flexContent">
                         <option value="">-- Please select --</option>
-                        <option value="align-content-center">center</option>
-                        <option value="align-content-start">flex-start</option>
-                        <option value="align-content-end">flex-end</option>
-                        <option value="align-content-around">space-around</option>
-                        <option value="align-content-evenly">space-evenly</option>
-                        <option value="align-content-between">space-between</option>
+                        <option value="align-self-start">Start</option>
+                        <option value="align-self-end">End</option>
+                        <option value="align-self-center">Center</option>
+                        <option value="align-self-baseline">Baseline</option>
+                        <option value="align-self-stretch">Stretch</option>
                     </select>
                 </div>
                 <div class="mt-5">
